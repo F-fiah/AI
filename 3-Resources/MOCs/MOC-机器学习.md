@@ -1,20 +1,20 @@
 # 核心概念
 
-[[3-Resources/Concepts/机器学习的应用|机器学习的应用]]
-[[3-Resources/Concepts/概率分布|概率分布]]
+- [[3-Resources/Concepts/机器学习的应用|机器学习的应用]]
+- [[3-Resources/Concepts/概率分布|概率分布]]
 # 监督学习
 
-[[3-Resources/Concepts/判别学习算法（Discriminative Learning Algorithms）|判别学习算法（Discriminative Learning Algorithms）]]
-[[3-Resources/Concepts/生成学习算法（Generative Learning Algorithms）|生成学习算法（Generative Learning Algorithms）]]
-[[3-Resources/Concepts/模型评估|模型评估]]
-[[3-Resources/Concepts/支持向量机|支持向量机]]
-[[3-Resources/Concepts/决策树|决策树]]
+- [[判别学习算法]]
+- [[生成学习算法|生成学习算法]]
+- [[3-Resources/Concepts/模型评估|模型评估]]
+- [[3-Resources/Concepts/支持向量机|支持向量机]]
+- [[3-Resources/Concepts/决策树|决策树]]
 # 非监督学习
 
-[[3-Resources/Concepts/非监督学习(Unsupervised Learning)|非监督学习(Unsupervised Learning)]]
+- [[非监督学习]]
 # 自监督学习
 
-[[3-Resources/Concepts/Self-Supervised Learning|Self-Supervised Learning]]
+- [[3-Resources/Concepts/Self-Supervised Learning|Self-Supervised Learning]]
 
 # Notebook
 

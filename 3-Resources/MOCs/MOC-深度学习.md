@@ -1,10 +1,10 @@
 # 概述
 
-[[3-Resources/Concepts/深度学习|深度学习]]
+- [[3-Resources/Concepts/深度学习|深度学习]]
 # 神经网络
 
-[[3-Resources/Concepts/神经网络|神经网络]]
-[[3-Resources/Concepts/Attention and Transformers|Attention and Transformers]]
+- [[3-Resources/Concepts/神经网络|神经网络]]
+- [[3-Resources/Concepts/Attention and Transformers|Attention and Transformers]]
 # Notebook
 
 - [[3-Resources/Notebook/Bahdanau|Bahdanau]]
