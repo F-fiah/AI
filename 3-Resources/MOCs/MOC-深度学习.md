@@ -17,7 +17,6 @@
 - [[3-Resources/Notebook/Self-Attention|Self-Attention]]
 - [[3-Resources/Notebook/Text_Process|Text_Process]]
 - [[3-Resources/Notebook/Transformers|Transformers]]
-- [[3-Resources/Notebook/Transformers copy|Transformers copy]]
 - [[3-Resources/Notebook/softmax回归|softmax回归]]
 - [[3-Resources/Notebook/多层感知机|多层感知机]]
 - [[3-Resources/Notebook/数据分析|数据分析]]

@@ -1,5 +1,5 @@
 
-原始Notebook：[[3-Resources/Codes/Deep_Learning/注意力机制/Transformers.ipynb]]
+原始Notebook：[[3-Resources/Codes/Deep_Learning/注意力机制/Transformers.ipynb]]，[[3-Resources/Codes/Deep_Learning/注意力机制/Transformers copy.ipynb]]
 # 实验摘要 
 
 简单写这个notebook做了什么、数据集、模型、核心结论

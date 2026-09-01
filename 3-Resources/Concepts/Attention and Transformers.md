@@ -13,7 +13,7 @@ Solution：look back at the whole input sequence on each step of the output
 
 解码器每一步 t，动态计算一组权重，选择性聚焦编码器所有时间步的隐状态，生成专属当前步的上下文向量 $c_t$
 
-1. 对齐分数(Alignment Scores)：
+1. 对齐分数 (Alignment Scores)：
    $e_{t,i} = f_{att}(s_{t-1},h_i)$，表示当前时间 t 要生成的词，与源语言第 i 个词的相关程度
 2. 将 $e_{t,i}$ 通过 softmax 函数转化成概率 $a_{t,i}$
 3. 生成上下文向量 (Context Vector)：

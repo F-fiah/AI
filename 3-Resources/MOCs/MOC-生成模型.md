@@ -13,3 +13,4 @@
 - [[3-Resources/Notebook/自回归模型|自回归模型]]
 - [[GANs]]
 - [[VAE]]
+- [[Diffusion]]
