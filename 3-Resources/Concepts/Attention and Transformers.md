@@ -93,3 +93,19 @@ MLP+位置编码也能处理序列，且全程并行、长文本更强，适合�
 4. 将输出进行标准化，作为下一层 Transformer 的输入
 
 ![[transformers.png]]
+## Vision Transformers
+
+将一张图像切成固定大小的图像块 Patch，并把每个 Patch 视为 NLP 中的一个 Token
+**让这些Patch两两之间做全局自注意力**，从而可以学会 patch 之间的语义关系（不受距离限制）
+
+1. 将图像分割为 patch，利用 CNN 卷积为向量
+2. 加上位置编码
+3. Transformer Encoder 前向传播，每个 Patch 都变成了蕴含全局信息的向量
+
+Problem：选取哪一个向量作为 “整张图的代表” 去送进分类头
+Solution：
+- 将所有向量取平均：平均池化会严重稀释的极端特征，导致模型偏向于学习背景纹理
+- 取最值：不稳定，聚焦于噪声
+**Final solution：CLS**
+通过自注意力机制，汇总所有 patch 的信息
+

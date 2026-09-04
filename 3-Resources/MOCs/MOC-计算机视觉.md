@@ -4,6 +4,7 @@
 - [[3-Resources/Concepts/图像处理|图像处理]]
 - [[3-Resources/Concepts/视频处理|视频处理]]
 - [[3-Resources/Concepts/3D Vision|3D Vision]]
+- [[3-Resources/Concepts/目标检测|目标检测]]
 # Notebook
 
 - [[3-Resources/Notebook/卷积|卷积]]
@@ -21,3 +22,4 @@
 - [[图像分割]]
 - [[图像分类]]
 - [[语义分割]]
+- [[人体姿态估计]]
